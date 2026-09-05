@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Dez Dicas",
+    "slug": "dez-dicas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0D1017",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1017"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.dezdicas.app",
+      "versionCode": 1,
+      "permissions": ["android.permission.VIBRATE"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D1017"
+      }
+    },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.dezdicas.app" }
+  }
+}
